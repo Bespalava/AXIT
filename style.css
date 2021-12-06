@@ -92,7 +92,7 @@ h1 {
 /* --- header content ---*/
 .header-content {
 	position: relative;
-	background: #000 url("../img/header.jpg") no-repeat center center;
+	background: #000 url("../AXIT/img/header.jpg") no-repeat center center;
 	/*-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;*/
@@ -288,7 +288,7 @@ body:last-child:not(:root:root) .form {
 }
 
 .features .presentations > div.container::before {
-	content: url("../img/city.png");
+	content: url("../AXIT/img/city.png");
 	position: absolute;
 	right: 25px;
 	top: 180px;
@@ -438,7 +438,7 @@ body:last-child:not(:root:root) .form {
 	padding-top: 40px;
 	padding-bottom: 45px;
 	position: relative;
-	background: #000 url("../img/design.jpg") no-repeat center center;
+	background: #000 url("../AXIT/img/design.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
