@@ -92,7 +92,7 @@ h1 {
 /* --- header content ---*/
 .header-content {
 	position: relative;
-	background: #000 url("../AXIT/img/header.jpg") no-repeat center center;
+	background: #000 url("../AXIT-main/img/header.jpg") no-repeat center center;
 	/*-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;*/
