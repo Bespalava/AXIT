@@ -342,10 +342,13 @@ body:last-child:not(:root:root) .form {
 
 .about-features-list {
 	text-align: center;
+
 	padding: 0;
 	padding-top: 160px;
+
 	list-style: none;
 }
+
 .about-features-item {
 	display: inline-block;
 	max-width: 355px;
@@ -356,6 +359,23 @@ body:last-child:not(:root:root) .form {
 
 .about-features-item:last-child {
 	margin-right: 0;
+}
+
+.about-features-item i {
+	font-size: 32px;
+	color: #ff8b38;
+	text-align: center;
+	line-height: 68px;
+
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 2px solid #ff8b38;
+	border-radius: 36px;
+
+	position: absolute;
+	left: 140px;
+	top: -100px;
 }
 
 .about-features-item .header {
@@ -374,6 +394,7 @@ body:last-child:not(:root:root) .form {
 	text-align: center;
 	color: #86878b;
 }
+
 /*-------------------  pricing  -------------------*/
 .pricing {
 	padding-top: 70px;
