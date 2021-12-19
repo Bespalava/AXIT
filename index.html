@@ -161,9 +161,9 @@
     <!-- ------  pricing  ------ -->
 	<div id="pricing" class="pricing">
 		<div class="container">
-            	<h2 class="pricing-header">Pricing option</h2>
-		<p class="pricing-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						<ul class="pricing-options">
+            <h2 class="pricing-header">Pricing option</h2>
+			<p class="pricing-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<ul class="pricing-options">
 				<li class="option">
 					<span class="option-head">Basic</span>
 					<div class="price">
@@ -258,7 +258,13 @@
 						<span class="profession">Photographer</span>
 					</div>
 				</li>
-            		</ul>
+            </ul>
+
+			<div class="reviews-slider-control">
+				<a href="#review-1" class="active"></a>
+				<a href="#review-2" class="nonactive"></a>
+				<a href="#review-3" class="nonactive"></a>
+			</div>
 		</div>
 	</div>
     <!-- ------  design  ------ -->
@@ -276,6 +282,17 @@
 		<div class="container">
             <h2 class="contact-header">Contact us</h2>
 			<p class="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<form method="POST" class="msg-form">
+				<div class="wrapper clearfix">
+					<div class="to-left">
+						<input type="text" name="name" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+						<input type="text" name="subject" placeholder="Subject">
+					</div>
+					<textarea name="Message" cols="30" rows="10" placeholder="Message" class="to-right"></textarea>
+				</div>
+				<input type="submit" value="Send Message">
+			</form>
 		</div>
 	</div>
     <!-- ------  footer  ------ -->
