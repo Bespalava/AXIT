@@ -565,6 +565,115 @@ body:last-child:not(:root:root) .form {
 
 	list-style: none;
 }
+/*****************/
+.comments-list .comment {
+	text-align: left;
+
+	display: inline-block;
+	width: 275px;
+	padding-right: 110px;
+}
+
+.comm-list .comment:last-child {
+	padding-right: 0;
+}
+
+.comm-list .comm-content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+
+	padding: 15px 10px 20px 10px;
+
+	position: relative;
+
+	background-color: #f5f5f5;
+}
+
+.comm-list .comm-content::after {
+	content: "";
+
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #f5f5f5;
+
+	position: absolute;
+	left: 20px;
+	top: 115px;
+}
+
+.comm-list .author {
+	padding-left: 85px;
+
+	position: relative;
+}
+
+.comm-list .author::after {
+	content: url("/img/comment.jpg");
+
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 36px;
+
+	position: absolute;
+	left: -5px;
+	top: -10px;
+
+	overflow: hidden;
+}
+
+.comm-list .author .name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+
+	display: block;
+	margin-top: 35px;
+}
+
+.comm-list .author .profession {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+
+	display: block;
+	margin-top: 5px;
+}
+.reviews-slider-control {
+	display: none;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+.reviews-slider-control > a {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+
+	border: 2px solid #000;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0 0 0 5px #fff;
+	box-shadow: inset 0 0 0 5px #fff;
+}
+
+.reviews-slider-control > a:not(:last-child) {
+	margin-right: 10px;
+}
+
+.reviews-slider-control > a.active {
+	background-color: #000;
+}
+
+.reviews-slider-control > a.nonactive {
+	background-color: #fff;	
+}
+
 /*-------------------  design  -------------------*/
 .design {
 	padding-top: 40px;
