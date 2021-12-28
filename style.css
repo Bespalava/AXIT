@@ -282,8 +282,8 @@ body:last-child:not(:root:root) .form {
 	margin: 26px 0;
 }
 
-.header-social .soc-icons-item,
-.footer .soc-icons-item {
+.header-social .social-item,
+.footer .social-item {
 	display: inline-block;
 	margin-right: 50px;
 }
